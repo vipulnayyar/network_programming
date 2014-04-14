@@ -165,7 +165,7 @@ def loadSnakeBoard(canvas):
                 ]
     canvas.data["snakeBoard"] = snakeBoard
     findSnakeHead(canvas)
-    placeFood(canvas)
+    #placeFood(canvas)
 
 def placeFood(canvas):
     # place food (-1) in a random location on the snakeBoard, but
