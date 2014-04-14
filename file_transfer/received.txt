@@ -1,0 +1,10 @@
+
+
+a=$(cat tem1)
+
+for i in $a ; do
+	echo " Func $i :"
+	grep -w $i tem2
+	echo "end"
+done
+^]
